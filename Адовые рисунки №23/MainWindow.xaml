@@ -1,0 +1,34 @@
+﻿<Window x:Class="Адовые_рисунки__23.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Адовые_рисунки__23"
+        mc:Ignorable="d"
+        Title="Мольберт" Height="600" Width="1200" Background="{x:Null}" Icon="/02WZ3Xo1TAY.jpg">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1088*"/>
+            <ColumnDefinition Width="113*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/dark-galaxy-space-stars-space-art-fire-nebula-atmosphere-astronomy-burning-star-outer-space-astronomical-object-36651.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Button x:Name="IZO" Content="Урок ИЗО" Margin="0,205,948,308" Click="IZO_Click" Background="{x:Null}" BorderBrush="White" Foreground="White" ToolTip="Создаём произведение искусства" />
+        <Button x:Name="Rospis"  Content="Подпись" Margin="1060,211,0,308" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Rospis_Click" Grid.ColumnSpan="2" ToolTip="Оставляем автограв"/>
+        <Button Content="About programm" Margin="336,483,612,31" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="About_Click" ToolTip="Рассказать историю создания"/>
+        <Button Content="Exit" Margin="722,485,226,33" BorderBrush="White" Background="{x:Null}" Foreground="White" Click="Exit_Click" IsCancel="True" ToolTip="Вы хотите уйти с урока по рисованию?"/>
+        <Button Content="Уборка" Margin="530,481,418,33" RenderTransformOrigin="4.097,4.269" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Clear_Click" ToolTip="Убираем кисточки" />
+        <Menu VerticalAlignment="Top"  Margin="1060,539,0,0" Grid.ColumnSpan="2" Background="{x:Null}" ToolTip="Набубенил стиля" >
+            <MenuItem Header="Обновка в цветах" Foreground="White" Background="Black" >
+                <MenuItem Header="Пёрпл" Background="DarkMagenta" Click="DarkMagenta_Click"/>
+                <MenuItem Header="Ну...синий? Почти синий" Background="Navy" Click="Navy_Click"/>
+                <MenuItem Header="Любите океан? Окрасьте буквы в его цвет!" Background="LightSeaGreen" Click="LightSeaGreen_Click"></MenuItem>
+                <MenuItem Header="Украине" Background="Blue" Click="Blue_Click" ></MenuItem>
+                <MenuItem Header="Слава" Background="Yellow" Click="Yellow_Click" Foreground="Black"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Image Source="/1590767605_00063.jpg" Stretch="Fill" Margin="145,10,32,101"/>
+            <Canvas x:Name="canvas" Margin="145,0,42,108" Background="Transparent" ToolTip="Наш мольбертик" >
+            
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+polygon_a1.Stroke = Brushes.Aquamarine; //Задаём окрашивание границ
+polygon_a1.Fill = Brushes.MidnightBlue; //Задаём цвет заливки
+polygon_a1.StrokeThickness = 5; //Задаём размер границ
+canvas.Children.Add(polygon_a1);
+polygon_a1.Points.Add(new Point(650, 250));
+polygon_a1.Points.Add(new Point(700, 250));
+polygon_a1.Points.Add(new Point(750, 200));
+polygon_a1.Points.Add(new Point(800, 250));
+polygon_a1.Points.Add(new Point(850, 250));
+polygon_a1.Points.Add(new Point(750, 100));
+
+
+polygon_a2.Stroke = Brushes.Aquamarine; //Задаём окрашивание границ
+polygon_a2.Fill = Brushes.MidnightBlue; //Задаём цвет заливки
+polygon_a2.StrokeThickness = 5; //Задаём размер границ
+canvas.Children.Add(polygon_a2);
+polygon_a2.Points.Add(new Point(600, 400));
+polygon_a2.Points.Add(new Point(650, 400));
+polygon_a2.Points.Add(new Point(700, 300));
+polygon_a2.Points.Add(new Point(800, 300));
+polygon_a2.Points.Add(new Point(850, 400));
+polygon_a2.Points.Add(new Point(900, 400));
+polygon_a2.Points.Add(new Point(850, 250));
+polygon_a2.Points.Add(new Point(800, 250));
+polygon_a2.Points.Add(new Point(700, 250));
+polygon_a2.Points.Add(new Point(650, 250));
